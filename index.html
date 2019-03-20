@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<ol lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donald Trump Lastest Situation</title>
+</head>
+<p>
+ >
+<h1>Keep Track of Donald Trump's Situation</h1>
+<h2>25 latest articles about Trump on CNN news</h2>
+{% if list_cnn %}
+<p><ol type="1" start="1">
+    {% for article in list_cnn %}
+<p><li><a href = {{ article[1] }}>{{article[0]}}</a></li></p>
+{% endfor %}</ol>
+</p>
+   {% else %}
+    <p><span>no article</span></p>
+{% endif %}
+<h2>Trump's latest 20 tweets</h2>
+{% if list_twi %}
+<ol type="1" start="1">
+    {% for tweet in list_twi %}
+    <p>
+        {% if tweet[1]==0 %}
+        <span><li>{{tweet[0]}}</li></span>
+          {% else %}
+           <span><li>{{tweet[0]}}<a href ="{{tweet[1]}}">media</a></li></span>
+    {% endif %}
+    </p>
+    {% endfor %}
+</ol>
+{% else %}
+<p>no tweets</p>
+{% endif %}
+</body>
+</html>

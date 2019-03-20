@@ -2,20 +2,20 @@
 a crawler that crawls the 25 latest articles from cnn.com about Donald Trump and his 20 latest tweets and a website that shows the results 
 
 Language:
-python
+python,
 html
 
 IDE:
 PyCharm
 
 Dependencies:
-Selenium
-Flask
+Selenium,
+Flask,
 chromedriver
 
 Usage:
-1.Download the crawler_Twitter_CNN.zip, unzip it, in the path where CNNTwiCrawler.py is located, python CNNTwiCrawler.py
-2.enter "http://127.0.0.1:5000/" in the browser address bar,then you can see the results of news and twitters.
+1.Download the zip, unzip it, in the path where CNNTwiCrawler.py is located, create a document named"templates", move "index.html" to the "templates" document. Then python CNNTwiCrawler.py
+2.enter "http://127.0.0.1:5000/" in the browser address bar,then you can see the results of news and tweets.
 
 Website Introduce:
 1.You can click one of the article titles to look at the detailed information.

@@ -19,5 +19,5 @@ Usage:
 
 Website Introduce:
 1.You can click one of the article titles to look at the detailed information.
-2.I planned to crawl 25 tweets but twitter seems to have a safeguard to allow users to crawl no more than 20 tweets, I have not found a method to bypass it until now.
+2.I planned to crawl 25 tweets but twitter seems to have a safeguard to allow users to crawl no more than 20 tweets, I have not found a method to bypass it so far.
 3.If a tweet contains a video or a picture,there is a button named "media", you can click it to have a look at the detailed information.
